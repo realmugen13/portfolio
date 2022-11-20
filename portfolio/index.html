@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toir Makhamadjonov</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-links">
+        <a href="#projects">Projects</a>
+    </div>
+</nav>
+<main class="main">
+    <div class="main-title">
+        <h2>I am <span class="input"></span></h2>
+        </div>
+<div class="main-grids">
+  <div class="main-grid"><img class="main_image" src="https://i.ibb.co/rMD92Rc/IMG-1451.png" ></div>
+  <div class="main-grid maintxt">
+    <h1 class="main_text">Hi, There!
+        I am 24 years old. I'm currently student of It-Park. I have completed 3+ real projects. You can see them below.</h1>
+  </div>
+</div>
+
+<div class="icons">
+<a href="https://github.com/realmugen13" target="_blank"><i class="fa fa-github-square" style="font-size:36px;color:white"></i></a>
+<a href="https://www.instagram.com/real_mugen/" target="_blank"> <i class="fa fa-instagram" style="font-size:36px;color:white"></i></a>
+<a href="https://t.me/real_mugen" target="_blank"><i class="fa fa-telegram" style="font-size:36px;color:white"></i></a>
+</div>
+</main>
+
+    <div class="section " id="projects">
+        <div class="title"><h1>Projects</h1></div>
+        <div class="container">
+          <div class="grid-row">
+            <div class="grid-item">
+              <span>
+                <h3>Weather app</h3>
+              </span>
+              <a href="https://realmugen.vercel.app/"><img src="https://i.ibb.co/YdvRM81/Screenshot-2022-11-18-at-00-17-51-Document.png" /></a>
+            </div>
+            <div class="grid-item">
+              <span>
+                <h3>Tap to picture to see the site</h3>
+                <p> React</p>
+              </span>
+              <a href="https://realmugen.vercel.app/"><img src="https://i.ibb.co/FYxb51q/Screenshot-2022-11-20-at-00-59-29-React-App.png" /></a>
+            </div>
+            <div class="grid-item">
+              <span>
+                <h3>Responsive simple web site</h3>
+                <h2>Tap to picture to see the site</h2>
+              </span>
+              <a href="https://rinnatensei.netlify.app/"><img src="https://i.ibb.co/YPrxRm4/Screenshot-2022-11-18-at-00-17-44-Document.png" /></a> 
+            </div>
+            <div class="grid-item">
+              <span>
+                <h3>Responsive Fitness Website</h3>
+              </span>
+              <a href="https://rinfit.netlify.app/"><img src="https://i.ibb.co/4tq97LS/Screenshot-2022-11-18-at-00-17-33-Document.png" /></a> 
+            </div>
+            <div class="grid-item">
+              <span>
+                <h3>Employees app</h3>
+              </span> 
+              <a href="https://emp-app-react.netlify.app/"></a>
+              <img src="https://i.ibb.co/cbMRVTw/Screenshot-2022-11-18-at-00-17-05-React-App.png" />
+            </div>
+            <div class="grid-item">
+              <span>
+                <h3>Sultan Market</h3>
+              </span> 
+              <a href="https://sultaanmk.netlify.app/"><img src="https://i.ibb.co/bvvFpdm/Screenshot-2022-11-18-at-00-16-52-Document.png" /></a>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    <script>
+
+ScrollReveal({ 
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400, });
+    ScrollReveal().reveal('.main-title, .nav-links', { delay: 500, origin: 'bottom' });
+    ScrollReveal().reveal('.main-grids, .icons', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal(' .section .grid-item', { delay: 600, origin: 'bottom' });
+
+      let typed = new Typed('.input', {
+          strings: [' Toir Makhamadjonov.', 'Web Developer.',],
+          typeSpeed: 70,
+          backSpeed: 60,
+          loop:true
+      });
+    </script>
+</body>
+</html>
